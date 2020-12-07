@@ -1,7 +1,10 @@
-## Put comments here that give an overall description of what your
-## functions do
+## The makeCacheMatrix function use a matrix and creates 4 function to retrieve
+## cache of the matrix and its inverse. 
 
-## This function helps to cache the inverse of a matrix with cacheSolve
+## The 'set' function sets the new value of the matrix
+## The 'get' function get the current value of the matrix
+## The 'setinverse' function sets the value of the inverse
+## The 'getinverse' function get the current value of the inverse
 
 makeCacheMatrix <- function(x = matrix()) {
   inverse_matrix <- NULL #Reserve the inverse matrix value
